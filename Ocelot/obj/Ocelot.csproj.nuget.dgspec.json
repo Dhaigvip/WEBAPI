@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\TCM Product\\ComponentRepository\\UI Components\\Technical\\TCM.Web.API.Core\\Ocelot\\Ocelot.csproj": {}
+  },
+  "projects": {
+    "C:\\TCM Product\\ComponentRepository\\UI Components\\Technical\\TCM.Web.API.Core\\Ocelot\\Ocelot.csproj": {
+      "version": "0.0.0-dev",
+      "restore": {
+        "projectUniqueName": "C:\\TCM Product\\ComponentRepository\\UI Components\\Technical\\TCM.Web.API.Core\\Ocelot\\Ocelot.csproj",
+        "projectName": "Ocelot",
+        "projectPath": "C:\\TCM Product\\ComponentRepository\\UI Components\\Technical\\TCM.Web.API.Core\\Ocelot\\Ocelot.csproj",
+        "packagesPath": "C:\\Users\\Dhaigvip\\.nuget\\packages\\",
+        "outputPath": "C:\\TCM Product\\ComponentRepository\\UI Components\\Technical\\TCM.Web.API.Core\\Ocelot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\TCM Product\\ComponentRepository\\UI Components\\Technical\\TCM.Web.API.Core\\.nuget\\NuGet.Config",
+          "C:\\Users\\Dhaigvip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://tcmbuild1.bise.financialsolutions.se:800/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.AspNetCore.MiddlewareAnalysis": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.DiagnosticAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "noWarn": [
+                "NU1701"
+              ]
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "osx.10.11-x64": {
+          "#import": []
+        },
+        "osx.10.12-x64": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win7-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

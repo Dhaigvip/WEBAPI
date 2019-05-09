@@ -1,0 +1,46 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/savecustomer",
+      "UpstreamPathTemplate": "/api/tcm/customer/savecustomer",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tcmbop2019.bise.financialsolutions.se",
+          "Port": 823
+        }
+      ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/placeredemptionorder",
+      "UpstreamPathTemplate": "/api/tcm/order/placeredemptionorder",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tcmbop2019.bise.financialsolutions.se",
+          "Port": 843
+        }
+      ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    },
+    {
+      "DownstreamPathTemplate": "/api/placesubscriptionorder",
+      "UpstreamPathTemplate": "/api/tcm/order/placesubscriptionorder",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tcmbop2019.bise.financialsolutions.se",
+          "Port": 843
+        }
+      ],
+      "DangerousAcceptAnyServerCertificateValidator": true
+    }
+  ],
+  "GlobalConfiguration": {
+    "SkipSslValidation": true
+  }
+}

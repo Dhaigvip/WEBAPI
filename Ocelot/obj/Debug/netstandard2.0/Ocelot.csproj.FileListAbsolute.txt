@@ -1,0 +1,9 @@
+C:\TCM Product\ComponentRepository\UI Components\Technical\TCM.Web.API.Core\Ocelot\bin\Debug\netstandard2.0\Ocelot.deps.json
+C:\TCM Product\ComponentRepository\UI Components\Technical\TCM.Web.API.Core\Ocelot\bin\Debug\netstandard2.0\Ocelot.dll
+C:\TCM Product\ComponentRepository\UI Components\Technical\TCM.Web.API.Core\Ocelot\bin\Debug\netstandard2.0\Ocelot.pdb
+C:\TCM Product\ComponentRepository\UI Components\Technical\TCM.Web.API.Core\Ocelot\obj\Debug\netstandard2.0\Ocelot.csprojAssemblyReference.cache
+C:\TCM Product\ComponentRepository\UI Components\Technical\TCM.Web.API.Core\Ocelot\obj\Debug\netstandard2.0\Ocelot.csproj.CoreCompileInputs.cache
+C:\TCM Product\ComponentRepository\UI Components\Technical\TCM.Web.API.Core\Ocelot\obj\Debug\netstandard2.0\Ocelot.AssemblyInfoInputs.cache
+C:\TCM Product\ComponentRepository\UI Components\Technical\TCM.Web.API.Core\Ocelot\obj\Debug\netstandard2.0\Ocelot.AssemblyInfo.cs
+C:\TCM Product\ComponentRepository\UI Components\Technical\TCM.Web.API.Core\Ocelot\obj\Debug\netstandard2.0\Ocelot.dll
+C:\TCM Product\ComponentRepository\UI Components\Technical\TCM.Web.API.Core\Ocelot\obj\Debug\netstandard2.0\Ocelot.pdb

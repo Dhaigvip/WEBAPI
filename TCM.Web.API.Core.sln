@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCM.Web.API.Core", "TCM.Web.API.Core\TCM.Web.API.Core.csproj", "{B045A76D-9794-4BCE-B720-889271D14BE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocelot", "Ocelot\Ocelot.csproj", "{05362718-22E0-4CF4-94EC-FFDFD6569DF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B045A76D-9794-4BCE-B720-889271D14BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B045A76D-9794-4BCE-B720-889271D14BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B045A76D-9794-4BCE-B720-889271D14BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B045A76D-9794-4BCE-B720-889271D14BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05362718-22E0-4CF4-94EC-FFDFD6569DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05362718-22E0-4CF4-94EC-FFDFD6569DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05362718-22E0-4CF4-94EC-FFDFD6569DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05362718-22E0-4CF4-94EC-FFDFD6569DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2146D0DD-35DD-4562-9366-0D286790D82E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tcmtfs.bise.financialsolutions.se:8080/tfs/tcm
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TCM.Web.API.Core\\TCM.Web.API.Core.csproj
+		SccProjectName1 = TCM.Web.API.Core
+		SccLocalPath1 = TCM.Web.API.Core
+		SccProjectUniqueName2 = Ocelot\\Ocelot.csproj
+		SccProjectName2 = Ocelot
+		SccLocalPath2 = Ocelot
+	EndGlobalSection
+EndGlobal

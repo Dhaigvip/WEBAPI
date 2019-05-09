@@ -1,0 +1,20 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.0",
+  "options": {
+    "inputs": [
+      "http://tcmbop2019.bise.financialsolutions.se:840/WSOrderService.svc?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Collections.Generic.List`1"
+    ],
+    "enableDataBinding": true,
+    "namespaceMappings": [
+      "*, TCM.Web.Business.ProxyLightOrder"
+    ],
+    "outputFile": "Reference.cs",
+    "serializerMode": "Auto",
+    "targetFramework": "netcoreapp2.2",
+    "typeReuseMode": "All"
+  }
+}

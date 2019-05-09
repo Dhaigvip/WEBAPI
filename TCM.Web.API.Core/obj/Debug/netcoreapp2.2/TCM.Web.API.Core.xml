@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TCM.Web.API.Core</name>
+    </assembly>
+    <members>
+        <member name="P:TCM.Web.API.Core.Domain.TCMClientRequest.Context">
+            <summary>
+            Users context
+            </summary>
+        </member>
+        <member name="P:TCM.Web.API.Core.Domain.TCMClientRequest.MetaData">
+            <summary>
+            Any additional information like which manager, action to be executed. 
+            </summary>
+        </member>
+        <member name="P:TCM.Web.API.Core.Domain.TCMClientRequest.Data">
+            <summary>
+            Actual payload of the request.
+            </summary>
+        </member>
+        <member name="M:TCM.Web.API.Core.Export2excel.ExcelWorker.CreateExcelDocument``1(System.Collections.Generic.List{``0},TCM.Web.API.Core.Export2excel.ExtendedGridProperties)">
+            <summary>
+            Creates Excel documents from given list
+            </summary>
+            <typeparam name="T">Type of list which is exported in excel</typeparam>
+            <param name="list">list which is exported in excel</param>
+            <param name="grid">ExtendedGridProperties object for column mapping</param>
+            <returns></returns>
+        </member>
+        <member name="M:TCM.Web.API.Core.Export2excel.ExcelWorker.WriteToExcel``1(System.Collections.Generic.List{``0},TCM.Web.API.Core.Export2excel.ExtendedGridProperties)">
+            <summary>
+            Writes data to excel
+            </summary>
+            <typeparam name="T">The type of datasource</typeparam>
+            <param name="lstDataSource">The data source</param>
+            <param name="extendedGridProperties">The extended grid properties</param>
+        </member>
+        <member name="M:TCM.Web.API.Core.Export2excel.ExcelWorker.GenerateFileName(System.String,System.String)">
+            <summary>
+            Generates the file name with the use of current username and DTO name
+            </summary>
+            <param name="userName">current user name</param>
+            <param name="fileName">DTO name or file name. AsyncFileName property of grid</param>
+            <returns></returns>
+        </member>
+        <member name="M:TCM.Web.API.Core.Export2excel.ExcelWorker.GetHeaderRow(System.Collections.Generic.List{TCM.Web.API.Core.Export2excel.ExportColumn})">
+            <summary>
+            Gets Header text for Header row
+            </summary>
+            <param name="columnDetails">Column details</param>
+            <returns>Header text</returns>
+        </member>
+        <member name="M:TCM.Web.API.Core.Export2excel.ExcelWorker.WriteTableHeader(DocumentFormat.OpenXml.OpenXmlWriter,System.Collections.Generic.List{System.String})">
+            <summary>
+            Writes the header row to Excel
+            </summary>
+            <param name="writer">Writer to write</param>
+            <param name="lstHeaderRowTexts">List of header text</param>
+        </member>
+        <member name="M:TCM.Web.API.Core.Export2excel.ExcelWorker.GetCellValue(System.Object,System.String,DocumentFormat.OpenXml.Spreadsheet.CellValues@)">
+            <summary>
+            
+            </summary>
+            <param name="listItem"></param>
+            <param name="dataField"></param>
+            <param name="cellType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TCM.Web.API.Core.Export2excel.ExcelWorker.GetDataKey(System.String)">
+            <summary>
+            Get the property name from key. if it is seprated by § then it returns before value of the §.
+            </summary>
+            <param name="dataKey">key of the dictionary</param>
+            <returns>property name</returns>
+        </member>
+        <member name="P:TCM.Web.API.Core.Helpers.TCMAutheticationHandler.Events">
+            <summary>
+            The handler calls methods on the events which give the application control at certain points where processing is occurring. 
+            If it is not provided a default instance is supplied which does nothing when the methods are called.
+            </summary>
+        </member>
+        <member name="M:TCM.Web.API.Core.Helpers.TCMAutheticationHandler.HandleAuthenticateAsync">
+            <summary>
+            Searches the 'Authorization' header for a 'Bearer' token. If the 'Bearer' token is found, it is validated using <see cref="T:Microsoft.IdentityModel.Tokens.TokenValidationParameters"/> set in the options.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

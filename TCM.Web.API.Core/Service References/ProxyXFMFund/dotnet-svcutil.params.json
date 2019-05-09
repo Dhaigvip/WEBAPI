@@ -1,0 +1,20 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.0",
+  "options": {
+    "inputs": [
+      "http://tcmrobur2012.bise.financialsolutions.se:801/WSFund.svc?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Collections.Generic.List`1"
+    ],
+    "enableDataBinding": true,
+    "namespaceMappings": [
+      "*, TCM.Web.Business.ProxyXFMFund"
+    ],
+    "outputFile": "Reference.cs",
+    "serializerMode": "Auto",
+    "targetFramework": "netcoreapp2.2",
+    "typeReuseMode": "All"
+  }
+}
